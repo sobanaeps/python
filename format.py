@@ -1,0 +1,5 @@
+n=int(input("Enter the name"))
+print("Hello {}, your balance is {}.".format("beenu", 230.2346))
+print("Hello {0}, your balance is {1}.".format("beenu", 230.2346))
+print("Hello {name}, your balance is {blc}.".format(name="beenu", blc=230.2346))
+print("Hello {0}, your balance is {blc}.".format("beenu", blc=230.2346))
