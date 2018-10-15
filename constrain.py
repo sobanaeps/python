@@ -1,0 +1,6 @@
+problem=problem()
+problem.addvariable('a'range(5))
+problem.addvariable('b'range(5))
+problem.addconstraint(lamda.a,b:a+b==5)
+problem.addconstraint(lamdaa,b:a*b==5)
+problem.getsolutions()
